@@ -5,6 +5,8 @@ import "../App.css";
 import toti from "../assets/iimgtot.png";
 import Introdutorio from "../components/introdutorio/Introdutorio";
 import Infos from "../components/infos/infos";
+import TextInfo from "../components/textInfo/TextInfo";
+import Rtls from "../components/RTLS/rtls";
 
 const Home = () => {
   return (
@@ -12,7 +14,6 @@ const Home = () => {
       <div className="divMaster">
         <br />
         <br />
-        {/* <br /> <br /> <br /> <br /> */}
         <div className="firstImg">
           <img
             src={toti}
@@ -33,7 +34,10 @@ const Home = () => {
         <h1 className="hmnq">Para todos os gostos e todos os desejos</h1>
         <Infos />
       </div>
-      <Introdutorio></Introdutorio>
+      <TextInfo/>
+<div className="con">
+<Rtls/>
+</div>
     </>
   );
 };

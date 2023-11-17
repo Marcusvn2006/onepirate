@@ -2,45 +2,93 @@
 
 .divMaster {
   background: #e0c9fa;
-  height: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
+
+.infoAcima{
+  padding-top: 25px;
+  text-align: center;
+
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.infoAcima button{
+background: #c29af1;
+
+  width: 150px;
+  height: 3px;
+}
+
 .info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 7%;
-  
+
+  font-family: "Roboto Condensed", sans-serif;
+
+}
+
+.etiquetaPreco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #c29af1;
+
+  padding: 2%;
+  border-radius: 10px;
+
+  height: 180.500px;
+  width: 327.112px;
+
+  /* -webkit-box-shadow:5px 10px 8px 8px rgba(62,66,66,0.22);
+  -moz-box-shadow: 5px 10px 8px 8px rgba(62,66,66,0.22);
+  box-shadow: 5px 10px 8px 8px rgba(62,66,66,0.22); */
+}
+
+.etiquetaPreco h2 {
+  padding: 12px 0 13px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  font-family: "Roboto Condensed", sans-serif;
+
+}
+
+.martelinho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background: #c29af1;
+
+  padding: 2%;
+  border-radius: 10px;
+
+  height: 180.500px;
+  width: 327.112px;
+
+  /* -webkit-box-shadow:5px 10px 8px 8px rgba(62,66,66,0.22);
+  -moz-box-shadow: 5px 10px 8px 8px rgba(62,66,66,0.22);
+  box-shadow: 5px 10px 8px 8px rgba(62,66,66,0.22); */
+}
+
+.martelinho h2 {
+  padding: 12px 0 13px 0;
+  text-transform: uppercase;
+  font-weight: bold;
 
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.hoteisLuxo {
+.altoFalante {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background: #c29af1;
-
-  padding: 2%;
-  border-radius: 10px;
-
-  /* -webkit-box-shadow:5px 10px 8px 8px rgba(62,66,66,0.22);
-  -moz-box-shadow: 5px 10px 8px 8px rgba(62,66,66,0.22);
-  box-shadow: 5px 10px 8px 8px rgba(62,66,66,0.22); */
-}
-
-.hoteisLuxo h1 {
-  padding: 8px 0 13px 0;
-  text-transform: uppercase;
-}
-
-.novasExp {
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
 
@@ -54,42 +102,25 @@
   box-shadow: 5px 10px 8px 8px rgba(62,66,66,0.22); */
 }
 
-.novasExp h1 {
-  padding: 8px 0 13px 0;
+.altoFalante h2 {
+  padding: 12px 0 13px 0;
   text-transform: uppercase;
+  font-weight: bold;
+
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.tarifasExclusivas {
+
+.btn{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-
-  background: #c29af1;
-
-  padding: 2%;
-  border-radius: 10px;
-
-  height: 191.2px;
-  width: 287.25px;
-
-  /* -webkit-box-shadow:5px 10px 8px 8px rgba(62,66,66,0.22);
-  -moz-box-shadow: 5px 10px 8px 8px rgba(62,66,66,0.22);
-  box-shadow: 5px 10px 8px 8px rgba(62,66,66,0.22); */
-}
-
-.tarifasExclusivas:hover {
-}
-
-.tarifasExclusivas h1 {
-  padding: 8px 0 13px 0;
-  text-transform: uppercase;
+  justify-content: center;
+  padding-bottom: 15px;
 }
 
 /* ------------------------------------------------------------------ */
 
 /* TODOS OS HOVER :) */
-.novasExp:hover {
+.martelinho:hover {
   transform: scale(1.05, 1.05);
 
   -webkit-box-shadow: 5px 10px 8px 8px rgba(62, 66, 66, 0.22);
@@ -98,7 +129,7 @@
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.hoteisLuxo:hover {
+.etiquetaPreco:hover {
   transform: scale(1.05, 1.05);
 
   -webkit-box-shadow: 5px 10px 8px 8px rgba(62, 66, 66, 0.22);
@@ -107,7 +138,7 @@
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.tarifasExclusivas:hover {
+.altoFalante:hover {
   transform: scale(1.05, 1.05);
 
   -webkit-box-shadow: 5px 10px 8px 8px rgba(62, 66, 66, 0.22);

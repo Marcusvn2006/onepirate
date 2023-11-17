@@ -52,7 +52,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 120px;
+  margin-top: 110px;
 }
 .conteiner{
   display: flex;
@@ -75,4 +75,8 @@ margin-bottom: 60px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.con{
+  display: flex;
+  justify-content: center;
 }

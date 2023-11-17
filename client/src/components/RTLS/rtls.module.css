@@ -1,0 +1,66 @@
+.inps{
+    width: 600px;
+    height: 407px;
+    background: #A99F94;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inps h1{
+    color: rgba(0, 0, 0, 0.87);
+font-size: 48px;
+font-family: Roboto Condensed;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 57.60px;
+word-wrap: break-word;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.inps h3{
+    color: rgba(0, 0, 0, 0.87);
+font-size: 15px;
+font-family: Work Sans;
+font-weight: 300;
+line-height: 26.68px;
+word-wrap: break-word;
+text-decoration: none;
+margin-bottom: 30px;
+
+}
+.inps input{
+margin-bottom: 30px;
+width: 300px;
+}
+.iims{
+    position: relative;
+    top: 240px;
+    /* right: 80px; */
+    left: 35px;
+    z-index: 4;
+}
+.mst{
+
+}
+.fst{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding-left: 200px;
+
+}
+.ii{
+    position: relative;
+ right: 20px;
+ bottom: 225px;
+}
+.disp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.disp h2{
+    margin-top: 30px;
+}

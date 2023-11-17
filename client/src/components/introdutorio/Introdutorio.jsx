@@ -1,8 +1,11 @@
 import styles from "./introdutorio.module.css";
 
 import Piscina from "@mui/icons-material/BeachAccessOutlined";
-import Coin from "@mui/icons-material/LocalAtmOutlined";
+// import Coin from "@mui/icons-material/LocalAtmOutlined";
 import pirata from "../../assets/pirata.svg";
+import cadeira from "../../assets/cadeira.svg";
+import coin from "../../assets/coin.svg";
+
 
 const Introdutorio = () => {
   return (
@@ -21,10 +24,8 @@ const Introdutorio = () => {
         </div>
 
         <div className={styles.hoteisLuxo}>
-          <Piscina
-            // color="secondary"
-            sx={{ fontSize: 50 }}
-          />
+        <img src={cadeira} alt="" />
+
 
           <h1>Os melhores hotéis de luxo</h1>
           <p>
@@ -38,10 +39,8 @@ const Introdutorio = () => {
         </div>
 
         <div className={styles.tarifasExclusivas}>
-          <Coin
-            // color="secondary"
-            sx={{ fontSize: 50 }}
-          />
+        <img src={coin} alt="" />
+          
 
           <h1>tarifas esclusivas</h1>
           <p>
