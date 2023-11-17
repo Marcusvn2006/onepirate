@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import styles from "./rtls.module.css";
 import rr from "../../assets/dd.png";
 import gg from "../../assets/gg.png";
-import SupportIcon from '@mui/icons-material/Support';
+import SupportIcon from "@mui/icons-material/Support";
 const Rtls = () => {
   return (
     <div>
@@ -48,10 +48,12 @@ const Rtls = () => {
           Got any questions? Need help?
         </Button>
         <h2>We are here to help. Get in touch!</h2>
-        <SupportIcon sx={{
-            marginTop:"30px",
-           marginBottom:"40px"
-        }} />
+        <SupportIcon
+          sx={{
+            marginTop: "30px",
+            marginBottom: "40px",
+          }}
+        />
       </div>
     </div>
   );
