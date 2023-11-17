@@ -93,7 +93,7 @@ const Nav = () => {
            
            
             <ButtonForm startIcon={<BedIcon />}>Hospedagens</ButtonForm>
-            <ButtonForm startIcon={<FlightTakeoffIcon />}>Voos</ButtonForm>
+           <Link to={"voos"}> <ButtonForm startIcon={<FlightTakeoffIcon />}>Voos</ButtonForm></Link>
           </div>
         </div>
       </header>

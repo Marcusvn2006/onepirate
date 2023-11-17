@@ -1,12 +1,13 @@
 import { Button } from "@mui/material";
 import styles from "./login.module.css";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
     <div>
       <div className={styles.toti}>
         <h1 className={styles.sig}>Sign Up</h1>
-        <h3>Already have an account?</h3>
+       <Link to={"/in"}> <h3>Already have an account?</h3></Link>
         <div className={styles.lego}>
           {" "}
           <div>

@@ -1,12 +1,13 @@
 import { Button } from "@mui/material";
 import styles from "./login.module.css";
+import { Link } from "react-router-dom";
 
 const Log = () => {
   return (
     <div>
       <div className={styles.toti}>
         <h1 className={styles.sig}>Sign In</h1>
-        <h3>Already have an account?</h3>
+      <Link to={"/up"}>  <h3>Already have an account?</h3></Link> 
        
           <div className={styles.senss}>
           <h2>Email</h2>
@@ -25,7 +26,7 @@ height:"45px"
         }
        }   variant="contained">Sign Up</Button>
           </div>
-          <h3>Forgot password?</h3>
+         <Link to={"/up"}> <h3>Forgot password?</h3></Link>
       </div>
     </div>
   );
