@@ -8,6 +8,7 @@ import SingUp from './rotes/singUp.jsx';
 import Error from './rotes/error.jsx';
 import Home from './rotes/home.jsx';
 import Voos from './rotes/voos/voos.jsx';
+import Hosp from './rotes/hosp/hosp.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       { path: "in", element: <SingIn /> },
       { path: "up", element: <SingUp /> },
       { path: "voos", element: <Voos /> },
+      { path: "hos", element: <Hosp /> },
     ],
   },
 ]);

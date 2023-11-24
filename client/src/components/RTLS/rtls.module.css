@@ -1,4 +1,4 @@
-.inps{
+/* .inps{
     width: 600px;
     height: 407px;
     background: #A99F94;
@@ -35,7 +35,7 @@ width: 300px;
 .iims{
     position: relative;
     top: 240px;
-    /* right: 80px; */
+    right: 80px;
     left: 35px;
     z-index: 4;
 }
@@ -46,7 +46,7 @@ width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-padding-left: 200px;
+padding-left: 300px;
 
 }
 .ii{
@@ -63,4 +63,44 @@ padding-left: 200px;
 }
 .disp h2{
     margin-top: 30px;
+}
+.meinho{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+.parte1 {
+  height: 500px;
+  margin: 3em 0 2em 0;
+}
+.parte2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.parte2 p {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Roboto Condensed;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44.46px; /* 123.5% */
+  text-transform: uppercase;
+}
+.parte2 h3 {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.5px;
+  margin-top: 30px; /* 175% */
+}
+.parte2 img {
+  margin-top: 30px;
 }

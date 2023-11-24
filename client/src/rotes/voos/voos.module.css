@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap");
+
+.divMaster {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.imgPrinc {
+  background: #00000062;
+  display: flex;
+  z-index: 5;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 279.042px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+.imgPrinc img {
+  width: 1472.8px;
+  object-fit: cover;
+  display: block;
+  position: absolute;
+  z-index: -5;
+  top: 0;
+  left: 0;
+  margin-top: 100px;
+}
+
+.firstPart {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 10px;
+
+  /* margin: 30px 0 30px 10px; */
+}
+
+.tlgdh2 {
+  padding: 20px 0 20px 23px;
+}
+
+.tlgdh2 h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.tlgdh2 h4 {
+  font-weight: 500;
+}
+
+/* _______________________________________________________________________ */
+
+.spMiami {
+  display: flex;
+  flex-direction: column;
+}
+
+.spMiami img {
+  max-height: 350px;
+  max-width: 350px;
+  border-radius: 10px;
+}
+.spMiami h4 {
+  padding-top: 10px;
+}
+.spMiami h5 {
+  font-weight: 400;
+}
+
+/* _______________________________________________________________________ */
+
+.spLa {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.spLa img {
+  max-height: 350px;
+  max-width: 350px;
+  border-radius: 10px;
+}
+.spLa h4 {
+  padding-top: 10px;
+}
+.spLa h5 {
+  font-weight: 400;
+}
+
+/* _______________________________________________________________________ */
+
+.spMadrid {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.spMadrid img {
+  max-height: 320px;
+  max-width: 320px;
+  border-radius: 10px;
+}
+.spMadrid h4 {
+  padding-top: 10px;
+}
+.spMadrid h5 {
+  font-weight: 400;
+}
+
+.spMadrid h4 h5 {
+  text-align: left;
+}

@@ -1,23 +1,27 @@
 import styles from "./textInfo.module.css";
+import linha from "../../assets/linha.png"
 
 import { Button, styled } from '@mui/material'
 
 import martelinho from "../../assets/martelinho.svg";
 import etiquetaPreco from "../../assets/etiquetapreco.svg";
 import altoFalante from "../../assets/altofalante.svg";
+import { Link } from "react-router-dom";
 
 const TextInfo = () => {
 
   const BtnStyled = styled(Button)({
-    color: "#000",
+    color: "#fff",
     fontSize: "20px",
     fontWeight:"bold",
     fontFamily: "Roboto Condensed,sans-serif",
-    background:"#c29af1",
+    background:"#28282a",
 
   })
   return (
     <div className={styles.divMaster}>
+     <div> <img className={styles.lala} src={linha} alt="" /></div>
+
         <div className={styles.infoAcima}>
         <h1>Como funciona:</h1>
         <button></button>
@@ -54,11 +58,11 @@ const TextInfo = () => {
         </div>
       </div>
       <div className={styles.btn}>
-      <BtnStyled 
+     <Link to={"up"}> <BtnStyled 
       variant="contained"
-      color= {(theme.vars || theme).palette[ownerState.color].dark}
+      // color= {(theme.vars || theme).palette[ownerState.color].dark}
 
-      > Começar </BtnStyled>
+      > Começar </BtnStyled></Link>
       
       </div>
     </div>

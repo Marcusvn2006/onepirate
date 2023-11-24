@@ -30,7 +30,7 @@ const Login = () => {
           <div className={styles.but}>
        <Button sx={
         {
-          background:"#AD5EF0",
+          background:"#28282a",
     width:" 385px",
 height:"45px"
         }

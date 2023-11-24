@@ -17,7 +17,7 @@ const Home = () => {
         <div className="firstImg">
           <img
             src={toti}
-            alt="Imagens dos espaços disponibilizados para os hospedes"
+            alt="Imagens dos espaços disponibilizados para hospedes"
           />
         </div>
         <div className="ajustesImg">

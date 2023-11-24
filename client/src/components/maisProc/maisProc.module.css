@@ -1,0 +1,80 @@
+.ile{
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 30px;
+gap: 113px;
+margin-left: 18px;
+margin-bottom: 40px;
+
+}
+
+.ile img{
+    object-fit: cover;
+
+    height: 380px;
+    width: 600px;
+}
+.img1{
+    width: 757px;
+    height: 320px;
+    object-fit: cover;
+
+}
+
+.img2{
+    width: 757px;
+    object-fit: cover;
+
+    height: 320px;
+}
+.img3{
+width: 1314px;
+height: 332px;
+    object-fit: cover;
+
+}
+.rlrr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+margin: 50px;}
+.ile h1{
+    color: white;
+    font-size: 27px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 38.40px;
+    word-wrap: break-word;
+    margin: 30px 0;
+position: absolute;
+}
+.rlrr h1{
+    color: white;
+    font-size: 27px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 38.40px;
+    word-wrap: break-word;
+    margin: 30px 0;
+    padding-bottom: 250px;
+    padding-right: 950px;
+position: absolute; 
+}
+.cont h1{
+
+    color: black;
+font-size: 32px;
+font-family: Roboto Condensed;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 38.40px;
+padding-bottom: 100px;
+word-wrap: break-word;
+display: flex;
+    justify-content: space-around;  
+}

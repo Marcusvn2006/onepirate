@@ -5,12 +5,28 @@ import Piscina from "@mui/icons-material/BeachAccessOutlined";
 import pirata from "../../assets/pirata.svg";
 import cadeira from "../../assets/cadeira.svg";
 import coin from "../../assets/coin.svg";
-
+import linha from "../../assets/linha.png"
 
 const Introdutorio = () => {
   return (
     <div className={styles.divMaster}>
+     <div> <img className={styles.lala} src={linha} alt="" /></div>
       <div className={styles.info}>
+        <div className={styles.hoteisLuxo}>
+        <img src={cadeira} alt="" />
+
+
+          <h1>Os melhores  hotéis <br /> de luxo</h1>
+          <p>
+            Da última moda 
+            hotel boutique para o icônico <br />
+            palácio com piscina XXL, <br />
+            vá para um 
+            mini-férias apenas alguns <br />
+            Paragem de metro sua casa.
+          </p>
+        </div>
+
         <div className={styles.novasExp}>
           <img src={pirata} alt="" />
 
@@ -23,20 +39,6 @@ const Introdutorio = () => {
           </p>
         </div>
 
-        <div className={styles.hoteisLuxo}>
-        <img src={cadeira} alt="" />
-
-
-          <h1>Os melhores hotéis de luxo</h1>
-          <p>
-            Da última moda 
-            hotel boutique para o icônico <br />
-            palácio com piscina XXL, <br />
-            vá para um 
-            mini-férias apenas alguns <br />
-            Paragem de metro sua casa.
-          </p>
-        </div>
 
         <div className={styles.tarifasExclusivas}>
         <img src={coin} alt="" />

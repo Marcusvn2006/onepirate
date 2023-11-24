@@ -66,7 +66,7 @@ const images = [
     
     const ImageButton = styled(ButtonBase)(({ theme }) => ({
       position: 'relative',
-      height: 200,
+      height: 360,
       [theme.breakpoints.down('sm')]: {
         width: '100% !important', // Overrides inline-style
         height: 100,
@@ -135,7 +135,7 @@ const images = [
 const Infos = () => {
   return (
  <div className={styles.tudo}>   <Box
-      sx={{ display: "flex", flexWrap: "wrap",    justifyContent: "center", minWidth: 300, width: "100%" }}
+      sx={{ display: "flex", flexWrap: "wrap",    justifyContent: "center", minWidth: 300, width: "80%" }}
     >
       {images.map((image) => (
         <ImageButton

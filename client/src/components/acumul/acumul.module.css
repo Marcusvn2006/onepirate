@@ -1,0 +1,24 @@
+
+.play{
+    width: 392px;
+
+}
+.play h1{
+    color: black;
+font-size: 32px;
+font-family: "Roboto Condensed", sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 38.40px;
+word-wrap: break-word;
+padding-left: 0;
+}
+.play h2{
+    color: black;
+font-size: 15px;
+font-family: Roboto;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 38.40px;
+word-wrap: break-word
+}

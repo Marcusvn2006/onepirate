@@ -1,62 +1,141 @@
-import { Button } from "@mui/material";
 import styles from "./rtls.module.css";
-import rr from "../../assets/dd.png";
-import gg from "../../assets/gg.png";
-import SupportIcon from "@mui/icons-material/Support";
+import Box from "@mui/system/Box";
+import icon4 from "./../../assets/boladegato.png";
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
+import Dots from "./../../assets/gg.png";
+import ImgForm from "./../../assets/dd.png";
+
 const Rtls = () => {
   return (
-    <div>
-      <div className={styles.fst}>
-        <div className={styles.inps}>
-          <h1>Receive offers</h1>
-          <h3>Taste the holidays of the everyday close to home.</h3>
-          <input type="text" />
-          <Button
+    <div className={styles.Cont5}>
+      <div className={styles.parte1}>
+        <Box sx={{ display: "flex", justifyContent: "center" }}>
+          <Box sx={{ position: "absolute", marginLeft: "26em" }}>
+            <img src={Dots} alt="" />{" "}
+          </Box>
+          <Box
             sx={{
-              background: "#28282A",
-              width: "300px",
+              background: "#A99F94",
+              width: "570px",
+              height: "410px",
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "center",
+              position: "relative",
+              zIndex: "3",
+              top: "4em",
             }}
-            variant="contained"
           >
-            Keep me updated
-          </Button>
-        </div>
-        <div className={styles.mst}>
-          <img className={styles.iims} src={rr} alt="" />
-          <img className={styles.ii} src={gg} alt="" />
-          <div></div>
-        </div>
-      </div>
-      <div className={styles.disp}>
-        <Button
-          variant="contained"
+            <Box
+              sx={{ display: "flex", flexDirection: "column", width: "370px" }}
+            >
+              <Box
+                sx={{
+                  fontSize: "50px",
+                  textTransform: "uppercase",
+                  fontFamily: "Roboto Condensed",
+                  fontWeight: "600",
+                }}
+              >
+                {" "}
+                Receive Offers{" "}
+              </Box>
+              <Box
+                sx={{
+                  fontSize: "20px",
+                  fontWeight: "100",
+                  textDecoration: "none",
+                  fontFamily: "Work Sans",
+                  color: "#000",
+                  marginTop: "10px",
+                }}
+              >
+                {" "}
+                Taste the holidays of the everyday close to home.
+              </Box>
+              <TextField
+                id="outlined-basic"
+                label="Your email"
+                variant="outlined"
+                sx={{ marginTop: "20px", background: "#f5f5ff" }}
+              />
+              <Button
+                variant="outlined"
+                type="submit"
+                sx={{
+                  mb: 3,
+                  width: "100%",
+                  background: "#28282a",
+                  color: "#F5f5ff",
+                  height: "50px",
+                  marginTop: "1em",
+                }}
+              >
+                Keep me updated
+              </Button>{" "}
+            </Box>{" "}
+          </Box>
+          <Box sx={{ position: "relative", zIndex: "2", margin: "2em" }}>
+            {" "}
+            <img src={ImgForm} alt="" />{" "}
+          </Box>{" "}
+        </Box>{" "}
+      </div>{" "}
+      <div className={styles.parte2}>
+        <Box
           sx={{
-            color: "black",
-            background: "#ffff",
-            width: "602px",
-            height: "84px",
-            border: "solid black 4px",
-            color: "rgba(0, 0, 0, 0.87)",
-            fontSize: "36px",
-            fontFamily: "Roboto Condensed",
-            fontWeight: "700",
-            textTransform: "uppercase",
-            lineHeight: "44.46px",
-            wordWrap: " break-word",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            border: "4px solid #28282A",
+            padding: "20px 30px 15px 40px",
           }}
         >
-          Got any questions? Need help?
-        </Button>
-        <h2>We are here to help. Get in touch!</h2>
-        <SupportIcon
-          sx={{
-            marginTop: "30px",
-            marginBottom: "40px",
-          }}
-        />
+          {" "}
+          <p>Got any questions? Need help?</p>{" "}
+        </Box>
+        <h3>We are here to help. Get in touch!</h3>
+        <img src={icon4} alt="" />{" "}
       </div>
     </div>
   );
 };
-
 export default Rtls;
+{
+  /* </div> */
+}
+
+{
+  /* <div className={styles.disp}>
+    <Button
+      variant="contained"
+      sx={{
+        color: "black",
+        background: "#ffff",
+        width: "602px",
+        height: "84px",
+        border: "solid black 4px",
+        color: "rgba(0, 0, 0, 0.87)",
+        fontSize: "36px",
+        fontFamily: "Roboto Condensed",
+        fontWeight: "700",
+        textTransform: "uppercase",
+        lineHeight: "44.46px",
+        wordWrap: " break-word",
+      }}
+    >
+      Got any questions? Need help?
+    </Button>
+    <h2>We are here to help. Get in touch!</h2>
+    <SupportIcon
+      sx={{
+        marginTop: "30px",
+        marginBottom: "40px",
+      }}
+    /> */
+}
+{
+  /* </div> */
+}

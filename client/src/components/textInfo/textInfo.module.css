@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
 
 .divMaster {
-  background: #e0c9fa;
+  background: #dfd3be;
 }
 
 .infoAcima{
@@ -12,12 +12,18 @@
 }
 
 .infoAcima button{
-background: #c29af1;
+background: #A99F94;
 
   width: 150px;
   height: 3px;
 }
+.lala{
+  /* top: 850px; */
+  height: 580px;
+  width: 100%;
+  position: absolute;
 
+}
 .info {
   display: flex;
   flex-direction: row;
@@ -35,7 +41,8 @@ background: #c29af1;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #c29af1;
+  background: #A99F94;
+  z-index: 3;
 
   padding: 2%;
   border-radius: 10px;
@@ -63,8 +70,9 @@ background: #c29af1;
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: 3;
 
-  background: #c29af1;
+  background: #A99F94;
 
   padding: 2%;
   border-radius: 10px;
@@ -91,8 +99,8 @@ background: #c29af1;
   justify-content: center;
   align-items: center;
   text-align: center;
-
-  background: #c29af1;
+z-index: 3;
+  background: #A99F94;
 
   padding: 2%;
   border-radius: 10px;
